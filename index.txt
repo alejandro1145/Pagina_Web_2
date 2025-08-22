@@ -1,0 +1,102 @@
+<html>
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Proyecto SENA - Página Web">
+    <meta name="keywords" content="HTML, Proyecto, SENA">
+    <meta name="author" content="Tu Nombre">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto SENA</title>
+</head>
+<body background="https://img.freepik.com/foto-gratis/fondo-blanco-abstracto_23-2148810113.jpg">
+
+    <!-- Header -->
+    <header>
+        <h1>Mi Proyecto Web</h1>
+        <h2>Ejemplo con los requisitos</h2>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+                <li><a href="#imagenes">Imágenes</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#tabla">Tabla</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio">
+        <h2>Bienvenidos</h2>
+        <p><b>Este es un texto en negrita</b> y <u style="color:blue;">este es un texto subrayado con color</u>.  
+        Aquí mostramos algunos <span>🔗</span> íconos.</p>
+        <a href="https://www.sena.edu.co" target="_blank">Ir a la página del SENA</a>
+    </section>
+
+    <!-- Formulario -->
+    <section id="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <label>Nombre:</label><br>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre"><br><br>
+
+            <label>Fecha:</label><br>
+            <input type="date" name="fecha"><br><br>
+
+            <label>Selecciona una opción:</label><br>
+            <input type="checkbox" name="opcion1"> Opción 1<br>
+            <input type="checkbox" name="opcion2"> Opción 2<br><br>
+
+            <label>Sexo:</label><br>
+            <input type="radio" name="sexo" value="M"> Masculino
+            <input type="radio" name="sexo" value="F"> Femenino<br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Imágenes -->
+    <section id="imagenes">
+        <h2>Imágenes</h2>
+        <img src="https://via.placeholder.com/200" alt="Imagen Local" width="200">
+        <a href="https://www.google.com">
+            <img src="https://via.placeholder.com/150" alt="Imagen con hipervínculo">
+        </a>
+    </section>
+
+    <!-- Videos -->
+    <section id="videos">
+        <h2>Video de Ejemplo</h2>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Ver Video</a>
+    </section>
+
+    <!-- Tabla -->
+    <section id="tabla">
+        <h2>Tabla de Datos</h2>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>20</td>
+                <td>Bogotá</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>25</td>
+                <td>Medellín</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 - Proyecto SENA</p>
+    </footer>
+
+</body>
+</html>
