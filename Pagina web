@@ -1,0 +1,13 @@
+# Pagina_Web_2
+mi segunda pagina web en html 
+tiene ciertas especificaciones que dejo el instructor estas son:
+Debe tener Titulos y Subtitulos.
+Debe tener fondo sin usar CSS.
+Debe tener secciones y un menú, al darle clic al menú debo poder movilizarme a la sección correspondiente.
+Debe tener formulario con los siguientes campos:(Cuadro de texto, Fechas, Checkbox, Radiobutton). Debe existir un boton de envio de formulario . Los cuadros de texto deben tener placeholder.
+Debe tener Hipervinculos hacia la página del Sena.
+Debe tener Hipervinculos hacia videos.
+Debe tener 2 imágenes. 1 Localy otra con Hipervinculo.
+Debe de tener una tabla 
+Debe tener textos con iconos. textos subrayados con color y negrita.
+Debe tener las siguientes etiquetas. (Header, Footer, Meta, Title).
